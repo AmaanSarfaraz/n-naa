@@ -5,7 +5,7 @@ import { ApiResponse } from "../utilis/ApiResponse.js";
 import { Patient } from "../models/patient.model.js";
 import { Doctor } from "../models/doctor.model.js";
 import { Admin } from "../models/admin.model.js";
-import { uploadOnCloudinary } from "../utilis/cloudinary.js";
+import { uploadOnCloudinary } from "../utilis/Cloudinary.js";
 
 const getAllBlogs = asyncHandler(async (req, res, next) => {
     

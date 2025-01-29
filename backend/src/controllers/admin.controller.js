@@ -3,7 +3,7 @@ import { asyncHandler } from '../utilis/asyncHandler.js';
 import { ApiError } from '../utilis/ApiError.js';
 import { ApiResponse } from '../utilis/ApiResponse.js';
 import jwt from 'jsonwebtoken';
-import { uploadOnCloudinary } from '../utilis/cloudinary.js'
+import { uploadOnCloudinary } from '../utilis/Cloudinary.js'
 
 
 const generateAccessAndRefreshToken = async (adminId) => {
