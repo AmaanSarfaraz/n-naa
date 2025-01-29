@@ -7,8 +7,7 @@ const app = express();
 
 // Enhanced CORS configuration
 const allowedOrigins = [
-    'https://clever-stardust-0e1a3b.netlify.app',
-    'http://localhost:3000' // Add local development
+    'https://advanced-hospital-management-1ers.vercel.app' // Add local development
 ];
 
 app.use(cors({
