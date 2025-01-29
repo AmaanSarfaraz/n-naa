@@ -2,8 +2,7 @@ import { Doctor } from "../models/doctor.model.js";
 import { asyncHandler } from "../utilis/asyncHandler.js";
 import { ApiError} from "../utilis/ApiError.js";
 import { ApiResponse } from "../utilis/ApiResponse.js";
-import { uploadOnCloudinary } from "../utilis/cloudinary.js";
-import { Admin } from "../models/admin.model.js";
+import { uploadOnCloudinary } from "../utilis/Cloudinary.js";
 import { Department } from "../models/department.model.js";
 
 const generateAccessAndRefreshToken = async (doctorId) => {
