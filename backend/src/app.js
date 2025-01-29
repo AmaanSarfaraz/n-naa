@@ -13,7 +13,7 @@
         credentials: true // Allow credentials
         
     }));
-
+    app.options('*', cors()); // Enable preflight requests
     app.use(express.json({ limit: "16kb" }));
     app.use(express.urlencoded({ extended: true, limit: "16kb" }));
     app.use(express.static("public"));
